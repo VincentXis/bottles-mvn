@@ -67,8 +67,4 @@ public class Bottle {
         setCurrentVolume(0);
     }
 
-    // ----------- status ------------ //
-    public String getStatus() {
-        return String.format("-\nmax litre: %d,  current litre: %d", getMaxCapacity(), getCurrentVolume());
-    }
 }
